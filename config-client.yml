@@ -27,7 +27,7 @@ eureka:
       #      集群部署
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
-    instance-id: provider-8861 #修改eureka中status信息
+    instance-id: provider-8862 #修改eureka中status信息
     prefer-ip-address: true #展示真实ip地址
 info:
   app.name: springcloud-provider
