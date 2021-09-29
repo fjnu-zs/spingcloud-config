@@ -12,6 +12,9 @@ mybatis:
 
 spring:
   profiles: dev
+  cloud:
+    config:
+      override-none: true
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
